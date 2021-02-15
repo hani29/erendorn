@@ -1,0 +1,13 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .header-divider {
+        width: 320px;
+    }
+
+    .header-shadow {
+        width: 320px;
+    }
+
+    .nav {
+        width: 320px;
+    }
+}

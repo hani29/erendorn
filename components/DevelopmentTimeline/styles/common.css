@@ -1,0 +1,123 @@
+.development-timeline-inner-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline > .slot {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.timeline > .slot > .source {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    position: absolute;
+    border-radius: 50%;
+    top: 8%;
+    left: 15%;
+    z-index: 2;
+}
+
+.timeline > .slot > .cover {
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.timeline > .slot > h2 {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -32px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.timeline > .time-stone {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.timeline > .time-stone > .ornament {
+    object-fit: contain;
+    position: absolute;
+    border-radius: 50%;
+    top: 84px;
+    left: 50%;
+    z-index: 2;
+}
+
+.timeline > .ender {
+    position: relative;
+}
+
+.timeline > .ender > img {
+    position: absolute;
+    top: 67px;
+    left: -4px
+}
+
+.timeline > .time-stone > h3 {
+    position: absolute;
+    text-transform: uppercase;
+    top: 92px;
+    color: #fff;
+    left: 12%;
+    right: 0;
+    text-align: center;
+}
+
+.slot-connector {
+    position: absolute;
+    top: 78px;
+}
+
+.slot-connector.right {
+    left: 180px
+}
+
+.slot-connector.left {
+    left: -180px
+}
+
+
+#items{
+    overflow-y: hidden;
+    white-space: nowrap;
+    }
+
+.item{
+    display: inline-block;
+    width: auto;
+    height: 300px;
+}
+
+
+#items::-webkit-scrollbar {
+    height: 30px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background-image:  url("/images/Slider/right.png"),url("/images/Slider/mid.png"),url("/images/Slider/left.png");
+    background-position: right,center, left;
+    background-size: 34% 11%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  #items::-webkit-scrollbar-thumb {
+    background-image:  url("/images/Slider/slider.png");
+    background-size:18% 116%;  
+    background-repeat: no-repeat;
+  }

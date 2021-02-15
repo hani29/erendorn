@@ -1,0 +1,118 @@
+.game-header {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.game-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-logo {
+    margin-top: 16px;
+    text-align: center;
+    width: 140px;
+}
+
+.game-logo-link {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+}
+
+.header-divider {
+    width: 640px;
+    position: absolute;
+    top: 72px;
+    z-index: 9;
+}
+
+.header-shadow {
+    width: 640px;
+    position: absolute;
+    top: 42px;
+    z-index: 9;
+}
+
+.nav {
+    font-family: LinuxBiolinium;
+    font-weight: 600;
+    font-size: 1em;
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+    top: 42px;
+    z-index: 10;
+    position: absolute;
+}
+
+.nav-section {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.nav-section.left {
+    left: 0;
+}
+
+.nav-section.right {
+    right: 0;
+}
+
+.nav-section > a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Open Sans Condensed";
+    font-weight: lighter;
+}
+
+.nav-section > a:visited {
+    color: #fff
+}
+
+.nav-section > a:hover {
+    cursor: pointer;
+}
+
+.nav ul {
+    text-align: center;
+    padding-inline-start: 0
+}
+
+.nav ul li {
+    display: inline;
+    padding: 4px;
+    position: relative;
+}
+
+.sub-nav {
+    width: 160px;
+    padding: 8px;
+    display: none;
+    position: absolute;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.nav ul li.with-sub-nav:hover .sub-nav {
+    display: block;
+}
+
+.sub-nav li {
+    display: block !important;
+}
+
+.sub-nav.hide {
+    display: none !important;
+}

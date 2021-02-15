@@ -1,0 +1,51 @@
+.class-item {
+    width: 320px;
+    height: 500px;
+    background: url('/images/races-classes/classes/bg/main.png') no-repeat;
+    background-position: 0 0;
+    background-size: 320px 500px;
+}
+
+.class-item > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 16px;
+    margin: 0;
+}
+
+.class-item > p {
+    color: #fff;
+    font-family: EB Garamond;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0px 16px;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.class-item-image-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.class-item-image-container > img {
+    width: 180px;
+    height: 150px;
+}
+
+.class-item-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.races-classes-list-item-container {
+    display: flex;
+    flex-direction: row;
+}

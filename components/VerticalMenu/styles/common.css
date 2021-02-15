@@ -1,0 +1,57 @@
+.vertical-menu-container {
+    position: fixed;
+    right: 16px;
+    top: 30%;
+    z-index: 9;
+}
+
+.vertical-menu-bg {
+    position: absolute;
+    left: -216px;
+    width: 250px;
+    height: 300px;
+    z-index: 0;
+    display: none;
+}
+
+.vertical-menu-stem {
+    height: 300px;
+    position: absolute;
+    right: 0;
+}
+
+.vertical-menu-container > .control {
+    position: absolute;
+    top: -136px;
+    left: -200px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.vertical-menu-container > .control > .hamburger {
+    width: 28px;
+    height: 28px;
+    background: url("/images/vertical-menu/hamburger.png") no-repeat;
+    background-size: 28px;
+    background-position: 0;
+}
+
+.vertical-menu-container > .control > .hamburger:hover {
+    cursor: pointer;
+}
+
+.vertical-menu-container > .control > .close {
+    width: 64px;
+    height: 64px;
+    background: url("/images/vertical-menu/close.png") no-repeat;
+    background-size: 64px;
+    background-position: 0;
+}
+
+.vertical-menu-container > .control > .close:hover {
+    cursor: pointer;
+    background: url("/images/vertical-menu/close-hover.png");
+    background-size: 64px;
+    background-position: 0;
+}

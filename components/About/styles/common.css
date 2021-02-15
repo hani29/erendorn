@@ -1,0 +1,22 @@
+.about-inner-container {
+
+}
+
+.about-inner-container > h1 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 32px;
+}
+
+.about-inner-container > h2 {
+    color: #fff;
+    padding: 0 32px;
+}
+
+.about-inner-container > p {
+    color: #fff;
+    padding: 0 32px;
+    font-family: "EB Garamond";
+    font-size: 1.1em;
+    text-align: justify;
+}

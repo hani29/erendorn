@@ -1,0 +1,10 @@
+.media-inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.audio-section {
+    width: 912px;
+    padding: 8px 32px;
+}
+

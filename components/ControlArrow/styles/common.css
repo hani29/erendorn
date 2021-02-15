@@ -1,0 +1,35 @@
+.control-arrow {
+    width: 72px;
+    height: 48px;
+    position: absolute;
+    bottom: 10%;
+    padding: 16px
+}
+
+.control-arrow.left {
+    background: url('/images/races-classes/control/arrow/left.png') no-repeat;
+    background-size: 96px;
+    background-position: 0;
+    left: 42px;
+}
+
+.control-arrow.left:hover {
+    background: url('/images/races-classes/control/arrow/left-hover.png') no-repeat;
+    background-size: 96px;
+    background-position: 0;
+    cursor: pointer;
+}
+
+.control-arrow.right {
+    background: url('/images/races-classes/control/arrow/right.png') no-repeat;
+    background-size: 96px;
+    background-position: 0;
+    right: 42px;
+}
+
+.control-arrow.right:hover {
+    background: url('/images/races-classes/control/arrow/right-hover.png') no-repeat;
+    background-size: 96px;
+    background-position: 0;
+    cursor: pointer;
+}

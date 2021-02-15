@@ -1,0 +1,30 @@
+.vertical-menu-cell {
+    position: absolute;
+    right: -14px;
+    display: flex;
+    padding: 16px;
+}
+
+.vertical-menu-cell:hover {
+    cursor: pointer;
+    background: url("/images/vertical-menu/cell-hover.png") no-repeat;
+    background-size: 275px;
+    background-position: 36px;
+}
+
+.vertical-menu-cell img {
+    width: 20px;
+}
+
+.vertical-menu-cell a {
+    color: #fff;
+    width: 275px;
+    text-align: right;
+    margin-right: 8px;
+    font-family: LinuxBiolinium;
+    text-decoration: none;
+}
+
+.vertical-menu-cell a:visited {
+    color: #fff;
+}

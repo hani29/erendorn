@@ -1,0 +1,25 @@
+.button-container {
+    background: url('/images/button/bg.png') no-repeat;
+    width: 200px;
+    height: 48px;
+    background-size: 200px;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container > span {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: LinuxBiolinium;
+    user-select: none;
+}
+
+.button-container:hover {
+    cursor: pointer;
+    background: url('/images/button/bg_hover.png') no-repeat;
+    background-position: 0;
+    background-size: 200px;
+}
