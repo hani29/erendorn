@@ -1,0 +1,145 @@
+.blogs-container {
+    position: absolute;
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.blogs-container > .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1
+}
+
+
+.blogs-heading {
+    color: #fff;
+    text-transform: uppercase;
+    width: 300px;
+    background: url('/images/races-classes/header-bg.png') no-repeat;
+    background-size: 300px;
+    background-position: 0;
+    padding: 16px;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.blog-content {
+    width: 600px;
+    margin: 16px;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.7);
+}
+
+.blog-content > div > h2 {
+    margin: 0;
+}
+
+.blog-content > div > span.date, .blog-content > div > h2, .blog-item > .sub-head > span.date, .blog-item > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 16px;
+    margin: 0;
+}
+
+.blog-content > div > span.date, .entry-content > p, .blog-item > .sub-head > span.date, .blog-item > .sub-head > span.content-type {
+    font-family: "EB Garamond";
+}
+
+.blog-content > div > h2, .blog-item > h2 {
+    font-family: LinuxBiolinium;
+}
+
+.blog-item > .sub-head > span.content-type {
+    color: #b5ae87;
+}
+
+
+.blog-content > .content {
+    padding: 16px;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.blog-content > .content > div > h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: url('/images/blogs/MIDDLE (1).png') no-repeat;
+    background-position: 50% -4px;
+    background-size: 550px 52px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+
+}
+
+.blogs-list {
+    margin-top: 48px;
+}
+
+.blog-item {
+    position: relative;
+    height: 200px;
+    width: 560px;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.7);
+    margin-top: 48px;
+}
+
+.blog-item:hover {
+    cursor: pointer;
+}
+
+.blog-item-divider {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-item > .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-item > .content > .image {
+    padding: 16px;
+    position: relative;
+}
+.blog-item > .content > .image > .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px;
+}
+
+.blog-item > .content > .text {
+    padding: 14px 4px;
+    height: 96px;
+    text-overflow: ellipsis;
+    color: white;
+    overflow: hidden;
+}
+
+.blog-item > .content > .text > a {
+    color: white;
+}
+
+.blog-item > .content > .image > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
