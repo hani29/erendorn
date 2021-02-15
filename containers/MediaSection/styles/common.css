@@ -1,0 +1,91 @@
+.media-section-container {
+    padding: 8px 32px;
+    background: url('/images/media/section-bg.png') no-repeat;
+    background-size: 564px 650px ;
+    background-position: -32px -48px;
+    width: 456px
+}
+
+.media-section-container > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 8px 16px;
+}
+
+.media-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.media-section-content > div {
+    width: 180px;
+    height: 150px;
+    margin: 4px 8px;
+    background: url("/images/media/frame.png") no-repeat;
+    background-position: 0;
+    background-size: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.media-section-content > div.break {
+    flex-basis: 100%;
+    height: 0;
+    width: 0;
+    border: none;
+}
+
+.media-section-content > div:hover {
+    cursor: pointer;
+}
+
+.media-section-content > div:hover > img.source, .media-section-content > div:hover > video.source  {
+    width: 210px;
+    height: 139px;
+    left: -16px;
+    top: 4px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important
+}
+
+
+.media-section-content > div > img.source, .media-section-content > div > video.source {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.media-section-content > div > img.control {
+    z-index: 2;
+    width: 48px;
+    height: 48px;
+    transition: 0.3s;
+}
+
+.media-section-content > div > img.floss {
+    z-index: 3;
+    width: 165px;
+    height: 105px;
+    position: absolute;
+    top: 20px;
+    transition: 0.3s;
+}
+
+.media-section-content > div:hover > img.control {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.media-section-content > div:hover > img.floss {
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    top: 0
+}

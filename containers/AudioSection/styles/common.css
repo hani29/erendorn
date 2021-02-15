@@ -1,0 +1,115 @@
+.audio-section-container > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 8px 16px;
+}
+
+.audio-section-container {
+    position: relative;
+}
+
+.audio-section-content {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.audio-section-item-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.audio-section-item-container > div.frame {
+    width: 165px;
+    height: 150px;
+    margin: 4px 8px;
+    margin-right: 0;
+    background: url("/images/media/frame.png") no-repeat;
+    background-position: 0;
+    background-size: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.audio-section-item-container > div.text-bg {
+    width: 180px;
+    height: 150px;
+    background: url("/images/media/audio-text-bg.png") no-repeat;
+    background-position: -80px 22px;
+    background-size: 240px;
+    position: relative;
+}
+
+.audio-section-item-container > div.frame > img.source {
+    width: 165px;
+    height: 102px;
+    object-fit: cover;
+    position: absolute;
+    left: 7px;
+    top: 24px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.audio-section-item-container > div.frame > img.control {
+    z-index: 2;
+    width: 48px;
+    height: 48px;
+    transition: 0.3s;
+}
+
+.audio-section-item-container > div.frame > img.floss {
+    z-index: 3;
+    width: 165px;
+    height: 105px;
+    position: absolute;
+    top: 20px;
+    transition: 0.3s;
+}
+
+.audio-section-item-container > div.frame:hover {
+    cursor: pointer;
+}
+
+.audio-section-item-container > div.frame:hover > img.source  {
+    width: 210px;
+    height: 139px;
+    left: -16px;
+    top: 4px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important
+}
+
+
+.audio-section-item-container > div.frame:hover > img.control {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.audio-section-item-container > div.frame:hover > img.floss {
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    top: 0
+}
+
+.audio-section-item-container > .text-bg > div {
+    position: absolute;
+    top: 32px;
+    left: 16px
+}
+
+.audio-section-item-container > .text-bg > div > h4 {
+    color: #daba86;
+    padding: 0 8px;
+    font-family: "EB Garamond";
+    margin: 0;
+}
+
+.audio-section-item-container > .text-bg > div > h3 {
+    color: #fff;
+    padding: 0 8px;
+    text-transform: uppercase;
+    margin: 0;
+}
