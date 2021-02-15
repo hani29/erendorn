@@ -1,0 +1,9 @@
+export const home = '/';
+export const about = '/about';
+export const raceProfiles = '/raceProfiles';
+export const developmentLogs = '/developmentLogs';
+export const media = '/media';
+export const store = '/store';
+export const discord = '/discord';
+export const contact = '/contact';
+export const blogs = '/blogs';
