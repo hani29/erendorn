@@ -1,0 +1,16 @@
+.about-container {
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.about-heading {
+    color: #fff;
+    text-transform: uppercase;
+    width: 300px;
+    background: url('/images/races-classes/header-bg.png') no-repeat;
+    background-size: 300px;
+    background-position: 0;
+    padding: 16px;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
